@@ -75,12 +75,8 @@ class SingleCircularProgressDrawable extends BaseSingleCircularProgressDrawable
     @Override
     protected void onDrawRing(Canvas canvas, Paint paint) {
         int level = getLevel();
-        if (level == 0) {
-            return;
-        }
 
         float targetRatio = (float) level / LEVEL_MAX;
-
         float startAngle;
 
         if (style == MaterialProgressBar.DETERMINATE_CIRCULAR_PROGRESS_STYLE_DYNAMIC_SPINNING) {

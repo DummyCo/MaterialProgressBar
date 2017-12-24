@@ -33,6 +33,7 @@ public class MaterialProgressBar extends ProgressBar {
 
     public static final int DETERMINATE_CIRCULAR_PROGRESS_STYLE_NORMAL = 0;
     public static final int DETERMINATE_CIRCULAR_PROGRESS_STYLE_DYNAMIC = 1;
+    public static final int DETERMINATE_CIRCULAR_PROGRESS_STYLE_DYNAMIC_SPINNING = 2;
 
     // This field remains false inside super class constructor.
     @SuppressWarnings("FieldCanBeLocal")

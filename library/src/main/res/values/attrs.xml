@@ -36,6 +36,7 @@
         <attr name="mpb_determinateCircularProgressStyle" format="enum">
             <enum name="normal" value="0" />
             <enum name="dynamic" value="1" />
+            <enum name="dynamic_spinning" value="2" />
         </attr>
 
         <attr name="mpb_progressTint" format="color|reference" />
