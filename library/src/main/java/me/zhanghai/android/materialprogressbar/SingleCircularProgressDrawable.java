@@ -80,7 +80,6 @@ class SingleCircularProgressDrawable extends BaseSingleCircularProgressDrawable
         }
 
         float targetRatio = (float) level / LEVEL_MAX;
-
         float startAngle;
 
         if (style == MaterialProgressBar.DETERMINATE_CIRCULAR_PROGRESS_STYLE_DYNAMIC_SPINNING) {
