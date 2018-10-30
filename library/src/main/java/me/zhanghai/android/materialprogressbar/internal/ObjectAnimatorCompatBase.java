@@ -10,7 +10,7 @@ import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.graphics.Path;
 import android.graphics.PathMeasure;
-import android.support.annotation.Size;
+import androidx.annotation.Size;
 import android.util.Property;
 
 class ObjectAnimatorCompatBase {
